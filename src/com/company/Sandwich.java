@@ -12,6 +12,12 @@ public class Sandwich {
         cheeseType = cheese;
         veggies = true;
     }
+    public Sandwich (String protein, String cheese, boolean veg) {
+        breadType = "whole Grain";
+        proteinType = protein;
+        cheeseType = cheese;
+        veggies = veg;
+    }
 
 
     public void setBreadType(String bread) {
